@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+h1 {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h2 {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+ul {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+ol {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+body {
+	background-color: rebeccapurple;
+a:Web stranica {
+color: lightpink;
+background-color: white;
+padding: 5px;
+line-height: 25px;
+border: 1px #FC66AA;
+}
