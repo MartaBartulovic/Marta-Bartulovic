@@ -1,5 +1,67 @@
 @charset "utf-8";
 /* CSS Document */
+/*linkovi*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: purple;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: skyblue;
+    color: black;
+}
+ body {
+        margin: 0;
+    }
+    /*Zaglavlje*/
+    .header{
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+    }
+ /*tekst*/
+{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+.row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+ /*Podnožje*/
+   footer{
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+    }
 p {
 	color: lightpink;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -20,6 +82,12 @@ ul {
 ol {
 	color: lightpink;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center
+}
+li {
+	color: lightpink;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center
 }
 body {
 	background-color: rebeccapurple;
@@ -30,3 +98,10 @@ padding: 5px;
 line-height: 25px;
 border: 1px #FC66AA;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	

@@ -4,15 +4,82 @@
 <title>Marta Bartulović</title>
 	<link rel="stylesheet" href="stil.css"/>
 </head>
+<style>
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align:center;
+}
+header{
+	background-color:purple;
+}
+body{
+margin:0;
+}
+.column{
+float:left;
+width:30%;
+padding:15px;
+}
+.row{
+clear:both;
+}
+img{
+	width:100%;
+}
+.centriraj{
+text-align:center;
+}
+
+footer{
+text-align:center;
+background-color:lightgray;
+padding:15px 0px;
+}
+</style>
 <body> 
-<h1>Radovi</h1>
-<img src="Radovi/slika1.jpg" style="width:500px;height:300px;">
-<img src="Radovi/Marta_Bartulović_projektni_zadatak_1.jpg" style="width:500px;height:400px;">
-<video width="320" height="240" controls>
+	<div class="topnav">
+ <a href="index.html">Home</a>
+ <a href="Vježbe.html">Vježbe</a>
+ <a href="10_vježba_HTML.pdf">Pdf dokument</a>
+ <a href="video.html">Video</a>
+</div>
+<header>
+<h1>Drugi html sa multimedijskim dokumentima</h1>
+</br>
+</header>
+<h2>Moji radovi</h2>
+</br>
+<h2>Illustrator</h2>
+<div class="row centriraj">
+<img src="Radovi/slika1.jpg" style="width:50%" class="center">
+</div>
+</br>
+<div class="row centriraj">
+<img src="Radovi/Marta_Bartulović_projektni_zadatak_1.jpg" style="width:50%">
+</div>
+</br>
+<h2>Video s vježbi</h2>
+<div class="row centriraj">
+<video style="width:50%" controls>
   <source src="Radovi/Marta_Bartulović_vježba_9.mp4" type="video/mp4">
   <source src="Radovi/Marta_Bartulović_vježba_9.mp4" type="video/ogg">
 </video>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</br>
+<h2>Video s interneta</h2>
+<div class="row centriraj">
+<div class="row centriraj">
+<iframe style="width:50%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</br>
+<h2>Zvuk</h2>
 <audio controls>
   <source src="Radovi/Moj zvuk.mp3" type="audio/ogg">
   <source src="Radovi/Moj zvuk.mp3" type="audio/mpeg">
